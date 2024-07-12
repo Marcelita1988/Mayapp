@@ -6,6 +6,7 @@
     <title>MayApp</title>
     <link rel="stylesheet" href="./assets/styles/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
    
 
 </head>
@@ -18,7 +19,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
@@ -32,27 +33,182 @@
                     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                   </li>
                 </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="avatar" role="button" data-bs-toggle="dropdown"></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#" id="botonsalir">Salir</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mt-2">
+                    <i class="bi bi-person-circle text-white fw-bold mt-5 fs-2"></i>
+                  </li>
+
+                </ul>
               </div>
             </div>
           </nav>
 
     </header>
     <main>
-        <div class="banner"></div>
+        <div class="banner">
+          <iframe width="500px" height="500px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=ZB3r34MsSkO_IcZpbVMi7MeYl0wlXmtMkhIrxyMNLMZURUJVNUE1QkFNOTNQU1BLT0NKRzBCWVVTSi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        </div>
         <button class="btn btn-primary botonChat"id="botonChat"onclick="cambiarCaja()">Chatea con May</button>
         <div class="cajaChat" id="cajaChat">
             <div class="p-4">
                 <h5>May</h5>
                 <p>Bienvenido, soy may...</p>
+                <hr>
+                <p class="text-star">Hola como estas?</p>
+                <p class="text-end text-primary fw-bold">Muy bien</p>
+                <div class="textoChat">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-8">
+                        <input type="text"class="form-control my-3" id="textoChat">
+                      </div>
+                      <div class="col-4 mt-2">
+                        <i class="bi bi-send-fill fs-3"></i>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+
+                
             </div>
         </div>
+        <section class="container-fluid g-0">
+          <div class="row">
+            <div class="col-12 my-5">
+              <img src="./assets/img/tigresura.avif" alt="foto"class="img-fluid">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <h3>TITULO</h3>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto porro a incidunt perferendis optio obcaecati hic aperiam blanditiis, illum nisi minus harum exercitationem ipsam dolorem quo provident fugiat explicabo repellendus! Deleniti impedit quos neque labore sapiente accusantium praesentium, unde cupiditate. Ipsum molestiae rem perferendis sunt dolorum, voluptates natus reprehenderit accusamus nulla repellendus aliquam voluptas repudiandae veniam perspiciatis sequi unde recusandae?</P>
+            </div>
+            <div class="col-4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ducimus quidem nostrum perspiciatis. Soluta similique dignissimos nam atque doloribus, itaque necessitatibus totam maxime ut tempore cum laborum neque labore dolores qui modi quibusdam autem odio incidunt veniam illum explicabo inventore sequi! Perspiciatis, officia laboriosam sit nisi necessitatibus suscipit, delectus, nobis debitis quidem molestias odit laborum blanditiis aspernatur mollitia cumque ipsam!</p>
+            </div>
+          </div>
+
+        </section>
 
     </main>
     <footer>
+      <div class="container-fluid menu p-5">
+        <div class="row text-white text-center">
+          <div class="col-3">
+           <h3>May</h3>
+           <br>
+           <img src="./assets/img/logo 1.jpg" alt="logo" class="img-fluid " height="200" width="200" >
+           <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci reprehenderit consectetur aliquam ducimus dolorem aut, iste quod pariatur, illo, mollitia expedita voluptatem perspiciatis harum suscipit. Ex numquam exercitationem laudantium a.</p>
+  
+          </div>
+          <div class="col-3">
+            <section>
+              <div class="row text-center">
+                <h3>SURA</h3>
+                <div class="col-6 text-end">
+                  <br><br>
+                  <i class="bi bi-car-front fw-bold fs-2"></i>
+                </div>
+                <div class="col-6 text-start">
+                  <br><br>
+                  <a href="https://www.segurossura.com.co/movilidad-segura/Paginas/default.aspx" class="btn border-white text-white">Ir</a
+                    >              
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-6 text-end">
+                  <br><br>
+                  <i class="bi bi-hospital fw-bold fs-2"></i>
+                </div>
+                <div class="col-6 text-start">
+                  <br><br>
+                  <a href="https://www.epssura.com/" class="btn border-white text-white">Ir</a>              
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-6 text-end">
+                  <br><br>
+                  <i class="bi bi-lungs fw-bold fs-2"></i>
+                </div>
+                <div class="col-6 text-start">
+                  <br><br>
+                  <a href="https://www.sura.co/web/ayudas-diagnosticas" class="btn border-white text-white">Ir</a>              
+                </div>
+              </div>
+  
+            </section>
+          </div>
+          <div class="col-3">
+            <section>
+              <div class="row text-center">
+                <h3>Acerca de </h3>
+                <h5 class="text-center mt-3">Todos los derechos reservados</h5>
+                <div class="col-6 text-end">
+                  <br><br>
+                  <i class="bi bi-github fw-bold fs-2"></i>
+                </div>
+                <div class="col-6 text-start">
+                  <br><br>
+                  <a href="https://github.com/Lauris0515" class="btn border-white text-white">Laura Perez</a
+                    >              
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-6 text-end">
+                  <i class="bi bi-github fw-bold fs-2"></i>
+                </div>
+                <div class="col-6 text-start">
+                  <a href="https://github.com/Marcelita1988" class="btn border-white text-white">Lina Areiza</a>              
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-6 text-end">
+                  <i class="bi bi-github fw-bold fs-2"></i>
+                </div>
+                <div class="col-6 text-start">
+                  <a href="https://github.com/GERITAAL" class="btn border-white text-white">Geraldin Bernal</a>              
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-6 text-end">
+                  <i class="bi bi-github fw-bold fs-2"></i>
+                </div>
+                <div class="col-6 text-start">
+                  <a href="https://github.com/sarisa91" class="btn border-white text-white">Sara Arango</a>              
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-6 text-end">
+                  <i class="bi bi-github fw-bold fs-2"></i>
+                </div>
+                <div class="col-6 text-start">
+                  <a href="https://github.com/laurremn" class="btn border-white text-white">Laura Restrepo</a>              
+                </div>
+              </div>
+            </div>
+            <br><br>
+            </section>
+            <br><br>
+            <p class="my-5">Estudiamos esta tecnica porque queremos aprender a implementar nuevas herramientas para automizar los procesos de nuestra compañia.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+  
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="./src/controllers/controlador.js"></script>
+    <script src="./src/controllers/controlador.js" type="module"></script>
+    <script src="./src/controllers/controladorSalida.js" type="module"></script>
     
 </body>
 
